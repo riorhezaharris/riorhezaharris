@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jump, Bambi, Jump!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game">
+        <div id="layer">
+            <div id="char" onclick="jump()"></div>
+            <div id="block"></div>
+            <button id="buttonStart" onclick="start()">START</button>
+            <button id="buttonReset" onclick="reload()">TRY AGAIN</button>
+            <div>
+                <div class="note" id="note1">
+                    <h2>Click Bambi to jump!</h2>
+                    <img src="./img/arrow1.png" alt="down arrow character">
+                </div>
+                <div class="note" id="note2">
+                    <h2>Beware of the fox!</h2>
+                    <img src="./img/arrow2.png" alt="down arrow obstacle">
+                </div>
+            </div>
+            <div id="countDown"><h2>BE READY!</h2></div>
+            <div id="finalScore">
+                <h2>Oops! You got caught!<br>Your high score:<br></h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Icons made by Freepik </a>||
+        <a href="http://www.freepik.com">Background by Katemangostar - Freepik</a>
+
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
